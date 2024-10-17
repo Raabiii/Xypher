@@ -2,7 +2,7 @@
 #define GAMESTATE_H
 
 #include "State.h"
-#include "Entity.h"
+#include "../Entities/Entity.h"
 
 class GameState: public State{
 private:
@@ -11,7 +11,7 @@ private:
     // Functions
     void initKeybinds();
 public:
-    GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys);
+    GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states);
     virtual ~GameState();
 
     // Functions

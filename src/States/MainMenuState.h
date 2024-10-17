@@ -2,7 +2,7 @@
 #define MAINMENUSTATE_H
 
 #include "GameState.h"
-#include "Button.h"
+#include "../Button/Button.h"
 
 class MainMenuState : public State
 {
@@ -21,7 +21,7 @@ private:
     void initButtons();
 
 public:
-    MainMenuState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys);
+    MainMenuState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states);
     virtual ~MainMenuState();
 
     // Functions

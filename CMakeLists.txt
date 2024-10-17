@@ -4,12 +4,12 @@ project(Xypher)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Xypher main.cpp
-        src/Code/Button.cpp
-        src/Code/Entity.cpp
-        src/Code/Game.cpp
-        src/Code/State.cpp
-        src/Code/MainMenuState.cpp
-        src/Code/GameState.cpp)
+        src/Button/Button.cpp
+        src/Entities/Entity.cpp
+        src/Game/Game.cpp
+        src/States/State.cpp
+        src/States/MainMenuState.cpp
+        src/States/GameState.cpp)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)
