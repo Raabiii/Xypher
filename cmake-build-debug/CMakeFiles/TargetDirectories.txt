@@ -1,0 +1,3 @@
+C:/Users/tobis/Schule_ohne_OneDrive/Xypher/cmake-build-debug/CMakeFiles/Xypher.dir
+C:/Users/tobis/Schule_ohne_OneDrive/Xypher/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tobis/Schule_ohne_OneDrive/Xypher/cmake-build-debug/CMakeFiles/rebuild_cache.dir
