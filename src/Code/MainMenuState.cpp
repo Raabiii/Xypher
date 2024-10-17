@@ -45,7 +45,7 @@ void MainMenuState::initButtons()
 
     /*this->buttons["SETTINGS"] = new Button(120, 300, 150, 50,
         &this->font, "Settings",
-        sf::Color(70, 71, 71, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
+        sf::Color(70, 71, 71, 210), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
     this->buttons["EXIT_STATE"] = new Button(100, 300, 150, 50,
         &this->font, "Quit",
