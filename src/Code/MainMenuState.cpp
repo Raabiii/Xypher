@@ -43,7 +43,7 @@ void MainMenuState::initButtons()
         &this->font, "New Game",
         sf::Color(70, 70, 70, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
-    /*this->buttons["SETTINGS"] = new Button(100, 200, 150, 50,
+    /*this->buttons["SETTINGS"] = new Button(110, 200, 150, 50,
         &this->font, "Settings",
         sf::Color(70, 70, 70, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
